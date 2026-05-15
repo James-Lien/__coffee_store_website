@@ -14,25 +14,25 @@ const coffeeProducts: Product[] = [
     name: '義式濃縮 (Espresso)',
     description: '最純正的咖啡精華，醇厚濃郁，帶有持久的焦糖香氣與油脂 (Crema)。',
     price: 'NT$ 120',
-    image: '/images/Rectangle 7.png',
+    image: './images/Rectangle 7.png',
   },
   {
     name: '精品手沖 (Hand Drip)',
     description: '嚴選單品豆，手沖方式完美呈現產地風味，口感清爽且層次分明。',
     price: 'NT$ 250',
-    image: '/images/Rectangle 7-1.png',
+    image: './images/Rectangle 7-1.png',
   },
   {
     name: '焦糖瑪奇朵 (Caramel Macchiato)',
     description: '香濃焦糖與滑順奶泡交織，多層次的甜蜜滋味，適合喜愛微甜的您。',
     price: 'NT$ 190',
-    image: '/images/Rectangle 7-2.png',
+    image: './images/Rectangle 7-2.png',
   },
   {
     name: '草莓拿鐵 (Strawberry Latte)',
     description: '新鮮草莓果醬搭配香醇咖啡與鮮乳，粉嫩色澤與酸甜滋味，是初戀的味道。',
     price: 'NT$ 230',
-    image: '/images/Rectangle 7-3.png',
+    image: './images/Rectangle 7-3.png',
   },
 ];
 
