@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# James's Coffee Store Website
 
-# Run and deploy your AI Studio app
+這是一個使用 React + Vite + Tailwind CSS 打造的精美咖啡店網頁。
 
-This contains everything you need to run your app locally.
+## 技術棧
+- **React 19**
+- **Vite 6**
+- **Tailwind CSS 4**
+- **Lucide React** (圖標)
+- **Framer Motion** (動畫)
 
-View your app in AI Studio: https://ai.studio/apps/9fb4e7cb-7c11-4598-8b21-0620a6cc7721
+## 本地開發
 
-## Run Locally
+1. 安裝依賴：
+   ```bash
+   npm install
+   ```
 
-**Prerequisites:**  Node.js
+2. 啟動開發伺服器：
+   ```bash
+   npm run dev
+   ```
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 部署
+本專案已配置 GitHub Actions，推送至 `main` 分支時會自動部署到 GitHub Pages。
